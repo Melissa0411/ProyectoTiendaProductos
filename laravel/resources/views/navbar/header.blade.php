@@ -15,34 +15,7 @@
 <br>
 </div>
 
-  
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-  <div class="container-fluid">
 
-        <li class="nav-item">
-        <span class="navbar-brand mb-0 h1">
-        <p class="fw-bold">
-          <a class="nav-link" style="color: #1A021B" href="{{ route('lista_usuarios')}}"> Usuarios </a>
-</p>
-        </li>
-        <li class="nav-item">
-        <span class="navbar-brand mb-0 h1">
-        <p class="fw-bold">
-          <a class="nav-link" style="color: #1A021B" href="{{ route('lista_tipos')}}"> Tipos </a>
-</p>
-        </li>
-        <li class="nav-item">
-        <span class="navbar-brand mb-0 h1">
-        <p class="fw-bold">
-          <a class="nav-link" style="color: #1A021B" href="{{ route('lista_tiendas')}}"> Tiendas </a>
-</p>
-        </li>
-        <li class="nav-item">
-        <span class="navbar-brand mb-0 h1">
-        <p class="fw-bold">
-          <a class="nav-link" style="color: #1A021B" href="{{ route('lista_productos')}}"> Productos </a>
-</p>
         </li>
       </ul>
       </div>

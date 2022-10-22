@@ -19,10 +19,18 @@ Route::get('/', function () {
 });
 */
 
-Route::name('lista_usuarios')->get('/', [TablasController::class, 'usuarios']);
+Route::name('alta_usuarios')->get('alta_usuarios', [TablasController::class, 'alta_usuarios']);
+Route::name('registrar_usuarios')->post('registrar_usuarios', [TablasController::class, 'registrar_usuarios']);
+Route::name('detalle_usuarios')->get('detalle_usuarios/{id}', [TablasController::class, 'detalle_usuarios']);
+Route::name('borrar_usuarios')->get('borrar_usuarios/{id}', [TablasController::class, 'borrar_usuarios']);
+Route::name('salvar_usuarios')->put('salvar_usuarios/{id}', [TablasController::class, 'salvar_usuarios']);
+Route::name('editar_usuarios')->get('editar_usuarios/{id}', [TablasController::class, 'editar_usuarios']);
+
 Route::name('lista_productos')->get('productos', [TablasController::class, 'productos']);
 Route::name('lista_tipos')->get('tipos', [TablasController::class, 'tipos']);
 Route::name('lista_tiendas')->get('tiendas', [TablasController::class, 'tiendas']);
+Route::name('lista_usuarios')->get('usuarios', [TablasController::class, 'usuarios']);
 
+Route::name('inicio')->get('', [TablasController::class, 'inicio']);
 
 

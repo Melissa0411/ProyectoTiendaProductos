@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <H1>BORRAR USUARIOS</H1>
-    <i>EL USUARIO HA SIDO BORRADO CORRECTAMENTE</i>
+    <h1>REGISTRO DE USUARIOS</h1>
+    <p><i>EL REGISTRO FUE TODO UN HPT EXITO</i></p>
 </body>
 </html>

@@ -9,6 +9,7 @@ class Usuarios extends Model
 {
     use HasFactory;
     protected $table = 'tb_usuarios';
+    public $timestamps = false;
     protected $primaryKey = 'id_usuario';
     protected $fillable = [
         'clave',

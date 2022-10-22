@@ -24,7 +24,7 @@ class TbUsuarios extends Migration
             $table->text('foto')->nullable();
             $table->string('email');
             $table->string('pass');
-            $table->integer('nivel');
+            $table->string('nivel');
             $table->boolean('activo');
          
         });
